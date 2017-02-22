@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/weather"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timezone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/timezoneTitle"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#49a195"
+        android:elevation="5dp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/timezoneNavBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#49a195"
+        android:elevation="5dp"
+        android:typeface="monospace" />
+
+</LinearLayout>

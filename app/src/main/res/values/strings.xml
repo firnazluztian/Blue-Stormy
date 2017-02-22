@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Stormy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_title">oops sorry !</string>
+    <string name="error_message">There was an error please try again</string>
+    <string name="error_ok_button_text">ok</string>
+    <string name="network.unavailable.message">Network is unavailable</string>
+    <string name="title_activity_daily_forecast">Daily forecasts</string>
+    <string name="no_daily_forecast_data">There is no data to display</string>
+    <string name="title_activity_hourly_forecast">Hourly Forecasts</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="app_version">1.1</string>
+    <string name="title_activity_navigation">Current Forecast</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="about">Stormy | v2.2 | Firnaz Luztian</string>
+
+    <string name="permissionMessage">You need to enable <b>location</b> permission for <b>Stormy</b> to give you the accurate forecast :(
+        \n\nif you have clicked <b>never ask me again</b>\nyou can undo this by changing the permission <b>manually in your setting</b> then restart the app :)</string>
+
+</resources>
